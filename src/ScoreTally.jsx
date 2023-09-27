@@ -1,6 +1,7 @@
 import React, { useState } from "react"; // Importing necessary modules for ScoreTally component
 import "./ScoreTally.css"; // Importing styles from ScoreTally.css
 import "./assets/basketball-icon.png"; // Importing basketball icon image from assets folder
+import backgroundPic from "./assets/celticsPicture.jpeg"
 
 const ScoreTally = () => {
   // Creates the functional component ScoreTally
@@ -66,7 +67,7 @@ const ScoreTally = () => {
     <div className="body-container">  
     {/* Div encompasses all the HTML and sets body-container as a class */}
       <div style={{ backgroundColor: "green" }} className="background-color">
-        <img src="./src/assets/celticsPicture.jpeg" className="celtics-pic" />
+        <img src={backgroundPic} className="celtics-pic" />
         <div>
           {/* <img id='bballicon' src='./src/assets/basketball-icon.png' /> */}
           <h1 className="h1-tally">Boston Celtics</h1>
