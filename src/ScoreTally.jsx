@@ -1,6 +1,6 @@
 import React, { useState } from "react"; // Importing necessary modules for ScoreTally component
 import "./ScoreTally.css"; // Importing styles from ScoreTally.css
-import "./assets/basketball-icon.png"; // Importing basketball icon image from assets folder
+import ballIcon from "./assets/basketball-icon.png"; // Importing basketball icon image from assets folder
 import backgroundPic from "./assets/celticsPicture.jpeg"
 
 const ScoreTally = () => {
@@ -76,9 +76,9 @@ const ScoreTally = () => {
           <button onClick={() => handleAddThree(1)}>Add 3 Points</button>
           <button onClick={() => handleSubtractOne(1)}>Subtract 1 Point</button>
           <h3>
-            <img id="bballicon" src="./src/assets/basketball-icon.png" />
+            <img id="bballicon" src={ballIcon} />
             Score: {team1Score}{" "}
-            <img id="bballicon" src="./src/assets/basketball-icon.png" />
+            <img id="bballicon" src={ballIcon} />
           </h3>
         </div>
         <div>
@@ -89,9 +89,9 @@ const ScoreTally = () => {
           <button onClick={() => handleAddThree(2)}>Add 3 Points</button>
           <button onClick={() => handleSubtractOne(2)}>Subtract 1 Point</button>
           <h3>
-            <img id="bballicon" src="./src/assets/basketball-icon.png" />
+            <img id="bballicon" src={ballIcon} />
             Score: {team2Score}
-            <img id="bballicon" src="./src/assets/basketball-icon.png" />
+            <img id="bballicon" src={ballIcon} />
           </h3>
         </div>
         <button onClick={handleResetScore}>Reset Score</button>
