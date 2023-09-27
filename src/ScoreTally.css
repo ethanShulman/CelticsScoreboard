@@ -1,0 +1,35 @@
+.celtics-pic {
+    height: 50vh;
+    width: 50vw;
+
+}
+
+.background-color {
+    background-color: rgb(37, 51, 37);
+}
+
+button {
+    background-color: green !important;
+    border: 2px solid white !important;
+}
+
+#bballicon {
+    height: 40px;
+    
+}
+
+.body-container {
+    background-image: url('./src/assets/celticsPicture.jpeg') !important;
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+/* h1 {
+    font-family:'Cambria', 'Cochin', 'Georgia', 'Times New Roman', 'serif';
+    text-decoration:
+} */
+
+.h1-tally {
+    text-decoration: underline 5%;
+    font-family:'Cambria', 'Cochin', 'Georgia', 'Times New Roman', 'serif';
+}
